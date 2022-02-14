@@ -1,0 +1,192 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.boxCompatibility{
+  border: 1px solid #CBD6DD;
+  border-radius: 15px;
+  margin: 10px 22px 0px 22px;
+  padding: 1rem;
+  padding-top: 0px;
+}
+
+.compatibilityLine{
+  margin-bottom: 4px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.pressDesign{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+hr.rounded {
+  border-top: 2px solid #bbb;
+  border-radius: 5px;
+}
+
+.questionTitle{
+  height: 100px;
+}
+
+/* Aggiunte */
+.card-img {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.questionnaireImg{
+  width: 200px;
+  height: 200px;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.card-img-listA {
+  width: 100%;
+  object-fit: cover;
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 3px;
+  border: 1px solid #C9C9C9 ;
+  margin-top: -20px;
+  margin-left: 12px;
+  aspect-ratio: 1/1;
+
+}
+
+.charac-area{
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  width: 180px
+}
+
+.reviewList{
+  padding: 0;
+  margin-bottom: 3px;
+}
+
+.description{
+  border: 1px solid #CBD6DD;
+  border-radius: 15px;
+  height: 100px;
+  padding:1rem;
+  padding-top: 9px;
+}
+
+.bottomNavLabel{
+  font-size: 12px;
+}
+
+.reviewsContainer{
+  border: 1px solid #CBD6DD ;
+  border-radius: 15px;
+  padding: 5px;
+  padding-top: 0rem;
+  margin: 15px;
+  margin-top: 1rem;
+  margin-bottom: 9rem;
+  background-color: #DAE2E7;
+  opacity: 1;
+}
+
+.singleReview{
+  display: flex;
+  justify-content: center;
+  padding: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+
+.floatingBut{
+  z-index: 90;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  bottom: 5rem;
+}
+
+
+.closeModalBtn{
+  right: 2rem;
+  top: 1rem;
+}
+
+.subtitle{
+  text-align: center;
+  font-size: 22px;
+  color: #243038;
+  margin: 0px;
+  margin-bottom: 20px;
+  padding:0px;
+  height: 20px;
+}
+
+.review{
+  font-size: 15px;
+  font-weight: 500;
+  margin : 0;
+}
+
+.area-title{
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0;
+}
+
+
+.map{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top:0px;
+  z-index:2;
+}
