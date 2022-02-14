@@ -1,2 +1,2 @@
 # TurinXStudents
-Human Computer Interaction project
+React based project for the Human Computer Interaction course at Politecnico di Torino
