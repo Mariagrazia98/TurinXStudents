@@ -1,9 +1,9 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Slider from './Components/Slider';
+import Slider from './Components/Apartment/Slider';
 import Intro from './Components/Intro';
 import Users from './Components/Users';
-import ApartmentScreen from './Components/ApartmentScreen';
+import ApartmentScreen from './Components/Apartment/ApartmentScreen';
 import ApartmentsList from "./Components/ApartmentsList";
 import ButtonAppBar from './Components/MyAppBar';
 import SimpleBottomNavigation from './Components/MyBottomNavigation';

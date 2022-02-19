@@ -9,11 +9,11 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import CloseIcon from '@mui/icons-material/Close';
 import HomeIcons from './HomeIcons';
-import API from './../API';
+import API from '../../API';
 import ContactPhoneRoundedIcon from '@mui/icons-material/ContactPhoneRounded';
 import {grey} from '@mui/material/colors';
 import ContactInformation from './ContactInformation';
-import computeDistance from './UniversityInfo';
+import computeDistance from '../UniversityInfo';
 import Slide from '@mui/material/Slide';
 
 function ApartmentInfo(props) {

@@ -1,13 +1,13 @@
 import * as React from 'react';
 import {useState} from 'react';
-import {Question1, Question2, Question3, Question4, Question5, Question6, Question7} from "./Questionnaire.js"
+import {Question1, Question2, Question3, Question4, Question5, Question6, Question7} from "../Questionnaire.js"
 import {useTheme} from '@mui/material/styles';
 import MobileStepper from '@mui/material/MobileStepper';
 import Button from '@mui/material/Button';
 import KeyboardArrowLeft from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
 import Box from '@mui/material/Box';
-import SearchingApartments from './SearchingApartments'
+import SearchingApartments from '../SearchingApartments'
 
 function Slider(props){
     const {idUser, areas, setIntro, setBestAreas, setUniversityId, setDirty}=props;

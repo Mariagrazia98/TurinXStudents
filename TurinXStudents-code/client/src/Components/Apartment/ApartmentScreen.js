@@ -8,8 +8,8 @@ import ContactInformation from './ContactInformation';
 import MySwiper from './MySwiper';
 import HomeIcons from './HomeIcons';
 import {BookmarkButton, ContactButton} from './MyButtons';
-import API from '../API';
-import computeDistance from './UniversityInfo';
+import API from '../../API';
+import computeDistance from '../UniversityInfo';
 
 export default function ApartmentScreen(props) {
   const [openSnack, setOpenSnack] = useState(false);

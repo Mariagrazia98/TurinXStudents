@@ -1,7 +1,7 @@
 import {useEffect, useState} from 'react';
 import {MapContainer, Marker, TileLayer, Tooltip} from 'react-leaflet'
 import {Box, Paper, Typography,} from '@mui/material';
-import ApartmentInfo from './ApartmentInfo';
+import ApartmentInfo from './Apartment/ApartmentInfo';
 import '../../node_modules/leaflet-geosearch/dist/geosearch.css';
 import L from 'leaflet';
 import API from './../API';
