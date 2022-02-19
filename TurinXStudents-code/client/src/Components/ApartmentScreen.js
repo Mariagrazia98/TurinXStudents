@@ -1,15 +1,13 @@
-import { useEffect, useState, Fragment } from 'react';
-import { useParams } from "react-router-dom";
-import { Box, Typography, Grid, Paper, Snackbar, Button, IconButton } from '@mui/material';
+import {Fragment, useEffect, useState} from 'react';
+import {useParams} from "react-router-dom";
+import {Box, Button, Grid, IconButton, Paper, Snackbar, Typography} from '@mui/material';
 import Slide from '@mui/material/Slide';
-
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
-import SchoolRoundedIcon from '@mui/icons-material/SchoolRounded'; 
-
+import SchoolRoundedIcon from '@mui/icons-material/SchoolRounded';
 import ContactInformation from './ContactInformation';
 import MySwiper from './MySwiper';
 import HomeIcons from './HomeIcons';
-import { BookmarkButton, ContactButton } from './MyButtons';
+import {BookmarkButton, ContactButton} from './MyButtons';
 import API from '../API';
 import computeDistance from './UniversityInfo';
 

@@ -1,6 +1,7 @@
 import {Grid} from "@mui/material";
-import { useNavigate } from "react-router-dom";
-import { useEffect } from 'react';
+import {useNavigate} from "react-router-dom";
+import {useEffect} from 'react';
+
 function Intro(){
     const navigate = useNavigate();
     useEffect(() => {

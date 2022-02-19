@@ -1,8 +1,5 @@
-
-
 import {Box, Paper, Typography} from '@mui/material';
 import ApartmentInfo from './ApartmentInfo';
-
 
 
 export default function ApartmentsSaved(props) {

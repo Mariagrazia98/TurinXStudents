@@ -1,10 +1,9 @@
 import * as React from 'react';
-import { Box, BottomNavigation, BottomNavigationAction, Paper } from '@mui/material';
+import {useEffect, useState} from 'react';
+import {BottomNavigation, BottomNavigationAction, Box, Paper} from '@mui/material';
 import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
 import BookmarkRoundedIcon from '@mui/icons-material/BookmarkRounded';
-import { Link } from "react-router-dom";
-import { useEffect, useState } from 'react';
-import {useLocation} from 'react-router-dom';
+import {Link, useLocation} from "react-router-dom";
 
 export default function SimpleBottomNavigation(props) {
   const [value, setValue] = useState(0);

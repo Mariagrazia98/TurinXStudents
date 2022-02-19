@@ -1,13 +1,11 @@
 import {useEffect, useState} from 'react';
-import {MapContainer, TileLayer, Marker, Tooltip} from 'react-leaflet'
-import {Box, Paper,Typography,} from '@mui/material';
+import {MapContainer, Marker, TileLayer, Tooltip} from 'react-leaflet'
+import {Box, Paper, Typography,} from '@mui/material';
 import ApartmentInfo from './ApartmentInfo';
 import '../../node_modules/leaflet-geosearch/dist/geosearch.css';
 import L from 'leaflet';
 import API from './../API';
 import {useParams} from "react-router-dom";
-
-
 
 
 export default function ApartmentsList(props) {

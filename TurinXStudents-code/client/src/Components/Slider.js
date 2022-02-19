@@ -1,7 +1,7 @@
-import { useState } from 'react';
-import {Question1, Question2, Question3, Question4, Question5, Question6, Question7} from "./Questionnaire.js"
 import * as React from 'react';
-import { useTheme } from '@mui/material/styles';
+import {useState} from 'react';
+import {Question1, Question2, Question3, Question4, Question5, Question6, Question7} from "./Questionnaire.js"
+import {useTheme} from '@mui/material/styles';
 import MobileStepper from '@mui/material/MobileStepper';
 import Button from '@mui/material/Button';
 import KeyboardArrowLeft from '@mui/icons-material/KeyboardArrowLeft';

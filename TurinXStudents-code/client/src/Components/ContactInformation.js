@@ -1,4 +1,4 @@
-import { Dialog,Typography, DialogTitle, List, ListItem, ListItemAvatar, Avatar, ListItemText } from '@mui/material';
+import {Avatar, Dialog, DialogTitle, List, ListItem, ListItemAvatar, ListItemText, Typography} from '@mui/material';
 import EmailRoundedIcon from '@mui/icons-material/EmailRounded';
 import PhoneRoundedIcon from '@mui/icons-material/PhoneRounded';
 

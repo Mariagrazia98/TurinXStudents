@@ -1,6 +1,6 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
+import {Swiper, SwiperSlide} from 'swiper/react';
 import Card from '@material-ui/core/Card';
-import SwiperCore, { Keyboard, Scrollbar, Pagination, Navigation } from 'swiper/core';
+import SwiperCore, {Keyboard, Navigation, Pagination, Scrollbar} from 'swiper/core';
 import 'swiper/swiper.min.css';
 import 'swiper/components/pagination/pagination.min.css';
 import 'swiper/components/navigation/navigation.min.css';

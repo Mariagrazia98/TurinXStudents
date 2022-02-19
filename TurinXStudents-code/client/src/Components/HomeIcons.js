@@ -1,4 +1,4 @@
-import { Box, Typography, Grid } from '@mui/material';
+import {Box, Grid, Typography} from '@mui/material';
 import BathtubRoundedIcon from '@mui/icons-material/BathtubRounded';
 import KingBedRoundedIcon from '@mui/icons-material/KingBedRounded';
 import PeopleRoundedIcon from '@mui/icons-material/PeopleRounded';

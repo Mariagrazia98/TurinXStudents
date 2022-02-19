@@ -1,9 +1,9 @@
 import CardActionArea from '@mui/material/CardActionArea';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
-import { Box } from '@material-ui/core'
+import {Box} from '@material-ui/core'
 import Grid from '@material-ui/core/Grid';
-import { useNavigate } from 'react-router-dom';
+import {useNavigate} from 'react-router-dom';
 import API from '../API';
 
 export default function Users(props) {

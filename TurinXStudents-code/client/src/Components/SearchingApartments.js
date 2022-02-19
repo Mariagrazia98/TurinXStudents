@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom';
+import {useNavigate} from 'react-router-dom';
 import API from '../API';
 import {useEffect, useState} from "react";
 import PropTypes from 'prop-types';
