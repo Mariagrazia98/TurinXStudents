@@ -4,11 +4,8 @@ React based project for the Human Computer Interaction course at Politecnico di 
 ### Team members:
 
   Mariagrazia Paladino
-  
   Sofia Catalano
-  
   Antonio Vespa
-  
   Pietro Borgaro
 
 
